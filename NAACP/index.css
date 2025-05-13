@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgb(239, 239, 239);
+}
+.logo {
+    width: 17%;
+    position: relative;
+    top: 33px;
+    left: 3%;
+}
+
+.resource {
+    position: relative;
+    float: right;
+    /* font-size: 1.5rem; */
+    /* font-size: 30px; */
+    font-size: 1.8rem;
+    font-family: 'Cal sans', sans-serif;
+    right: 23%;
+    margin-top: 40px;
+    /* font-family: 'Cal sans'; */
+}
+.donate {
+    width: 10%;
+    float: right;
+    position: relative;
+    right: 0.5%;
+    margin-top: 17px;
+}
+.search {
+    width: 3%;
+    position: relative;
+    float: right;
+    margin-top: 36px;
+    right: -16%;
+}
+
+.a {
+    color: rgb(164, 27, 27);
+}
+
+
+.case {
+    /* width: 200%;
+    margin-top: 75px;
+    margin-left: 80px; */
+    width: 700px;
+    /* max-width: 500px; */
+    position: relative;
+    top: 17%;
+}
+.container {
+    display: flex; 
+    justify-content: space-between;
+    /* padding: 2% 5%;  */
+}
+
+
+.box1, box2 {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin: 10px;
+}
+
+.box2 {
+    font-family: "나눔고딕";
+    font-weight: bold;
+    white-space: nowrap; /* 자동 줄 바꿈 방지 */
+    margin-top: 5%;
+
+}
+
+
+.text {
+    font-size: 50px;
+}
+.sub {
+    font-size: 30px;
+}
+.out {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.buy-wrapper {
+    width: 100%;
+    text-align: right;
+    position: relative;
+    right: 110px;
+    top: 55px;
+    
+}
+
+.buy {
+    padding: 10px 50px;
+    font-size: 18px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}

@@ -1,0 +1,105 @@
+/* body와 html에 기본 스타일 추가 */
+body {
+    height: 100%; /* 화면 전체를 채우도록 설정 */
+    margin: 0; /* 기본 마진 제거 */
+    font-family: "나눔고딕"; /* 글꼴 설정 */
+    background-color: rgb(237, 237, 237);
+}
+
+/* 부모 div에 flexbox 사용 */
+.box2 {
+    display: flex; /* flexbox 설정 */
+    flex-direction: column; /* 수직 방향으로 정렬  */
+    /* justify-content: center; */
+     /* 세로 중앙 정렬 */
+    /* align-items: right; */
+     /* 가로 중앙 정렬 */
+    height: 80vh;
+    text-align: center; /* 텍스트 가로 중앙 정렬 */
+    margin-left: auto;
+
+    /* width: 100vw; */
+    box-sizing: border-box;
+    /* margin-top: -20px; */
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 33px;
+}
+.box1 {
+    /* position: relative; */
+    height: auto;
+    object-fit: cover;
+}
+.img {
+    width: 550px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 7%;
+    border-radius: 1%;
+}
+.box1, box2 {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin: 10px;
+}
+.box2 p {
+    white-space: nowrap;
+    /* margin-left: 400px;   */
+}
+
+.container {
+    /* padding: 2% 5%;  */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: centert; */
+    gap: 110px; 
+    padding: 40px;
+    align-items: center;
+    align-items: flex-start;
+
+
+
+}
+
+/* p 태그에 간격 및 글자 스타일 추가 */
+p {
+    margin: 10px 0; /* p 태그 간의 간격 설정 */
+    font-size: 22px; /* 글자 크기 */
+    line-height: 1.6; /* 줄 간격 설정 */
+}
+
+body {
+    background-color: whitesmoke;
+}
+.logo {
+    width: 253px;
+    position: relative;
+    top: 40px;
+    left: 3.5%;
+}
+
+.resource {
+    position: relative;
+    float: right;
+    /* font-size: 1.5rem; */
+    /* font-size: 30px; */
+    font-size: 1.8rem;
+    font-family: 'Cal sans', sans-serif;
+    right: 352px;
+    margin-top: 48px;
+    /* font-family: 'Cal sans'; */
+}
+.donate {
+    width: 9.9%;
+    float: right;
+    position: relative;
+    right: 1%;
+    margin-top: 25px;
+}
+.search {
+    width: 44.5px;
+    position: relative;
+    float: right;
+    margin-top: 45px;
+    right: -15.3%;
+}
