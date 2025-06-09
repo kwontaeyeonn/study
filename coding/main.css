@@ -1,0 +1,37 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #202020;
+    color: white;
+}
+#search-input {
+    margin-left: auto;
+    padding: 0.5rem;
+    width: 300px;
+}
+#video-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.video-card {
+    width: 300px;
+    margin: 1rem;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.video-card img {
+    width: 100%;  
+}
+.video-info {
+    padding: 0.5rem;
+}
